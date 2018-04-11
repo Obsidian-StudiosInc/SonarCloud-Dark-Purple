@@ -11,7 +11,8 @@
     .navbar-search .search-box-input, .overview-domain-leak,
     .overview-domain-panel, .overview-legend, .overview-main, .overview-meta,
     .overview-quality-gate, .overview-quality-gate-condition-leak,
-    .overview-title, .page-wrapper, .search-navigator-facet-box,
+    .overview-title, .page-wrapper, .project-activity-version-badge,
+    .search-navigator-facet-box,
     .search-navigator-facet-empty, .search-navigator-facet-header,
     .source-line-code.code, .source-line-code-inner, .source-line-coverage,
     .source-line-filtered.source-line-filtered-dark .source-line-code,
@@ -56,6 +57,10 @@
     {
         color: #9977BB !important;
     }
+    .badge
+    {
+        background: #9977BB !important;
+    }
     .search-navigator-facet .facet-stat::before
     {
         background: linear-gradient(-90deg,#222 20%,rgba(255,255,255,0) 100%) !important;
@@ -65,6 +70,10 @@
     .search-navigator-facet.active
     {
         border: 1px solid #9977BB !important;
+    }
+    .leak-chart-rect
+    {
+        fill: #222 !important;
     }
     .overview-domain-nutshell .line-chart-backdrop
     {
