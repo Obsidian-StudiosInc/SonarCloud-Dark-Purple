@@ -60,4 +60,12 @@
     {
         border: 1px solid #9977BB !important;
     }
+    .overview-domain-nutshell .line-chart-backdrop
+    {
+        fill: #333 !important;
+    }
+    .overview-domain-leak .line-chart-backdrop
+    {
+        fill: #444 !important;
+    }
 }
