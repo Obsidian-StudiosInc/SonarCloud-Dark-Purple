@@ -1,6 +1,6 @@
 @-moz-document domain("sonarcloud.io")
 {
-    body, input[type="date"], input[type="email"], input[type="number"],
+    body, html, input[type="date"], input[type="email"], input[type="number"],
     input[type="password"], input[type="search"], input[type="text"],
     select, textarea, .boxed-group, .bubble-popup, .coding-rule,
     .code-components tr, .data-line-number, .data tr.blank, .data tr.blank > td,
