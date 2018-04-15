@@ -17,7 +17,8 @@
     .source-line-code.code, .source-line-code-inner, .source-line-coverage,
     .source-line-filtered.source-line-filtered-dark .source-line-code,
     .source-line-number, .source-line-scm, .source-viewer, .source-viewer,
-    .source-viewer-header, .spacer-left, .workspace-viewer-container,
+    .source-viewer-header, .source-viewer-more-code, .spacer-left, 
+    .workspace-viewer-container,
     #footer, #projects-management-page-projects tr
     {
         background: #222 !important;
