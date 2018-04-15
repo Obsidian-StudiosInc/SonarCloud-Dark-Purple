@@ -23,6 +23,7 @@
         background: #222 !important;
         color: #CCC;
     }
+    .concise-issue-box:not(.selected) .location-index, .location-message,
     .measure-details-component-row.selected
     {
         background: #333 !important;
@@ -30,7 +31,7 @@
     }
     table.data.zebra > tbody > tr.selected,
     .concise-issue-box, .dropdown-menu a.active, .dropdown-menu a:hover,
-    .issue, .issue-rule, .issue-rule:hover,
+    .issue, .issue-location, .issue-rule, .issue-rule:hover,
     .menu-search ~ .menu > .active > a,
     .menu-search ~ .menu > .active > a:focus,
     .menu-search ~ .menu > .active > a:hover,
