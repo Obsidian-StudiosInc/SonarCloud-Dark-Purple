@@ -14,6 +14,7 @@
     .overview-title, .page-wrapper, .project-activity-version-badge,
     .search-navigator-facet-box,
     .search-navigator-facet-empty, .search-navigator-facet-header,
+    .site-footer .grey-band, .source-line-issues,
     .source-line-code.code, .source-line-code-inner, .source-line-coverage,
     .source-line-filtered.source-line-filtered-dark .source-line-code,
     .source-line-number, .source-line-scm, .source-viewer, .source-viewer,
@@ -41,8 +42,10 @@
     .menu-search ~ .menu > li > .active:hover,
     .search-box-input, .search-navigator-facet.active,
     .search-navigator-facet.active .facet-name, .Select-placeholder,
-    .Select-value, .source-line-code.code:hover, .source-line-code-inner:hover,
-    .source-line-filtered.source-line-filtered-dark .source-line-code:hover
+    .Select-value, .source-line-code:hover,
+    .source-line-code.code:hover, .source-line-code-inner:hover,
+    .source-line-filtered.source-line-filtered-dark, .source-line-issues:hover,
+    .source-line-scm:hover
     {
         background: #444 !important;
         color: #CCC;
