@@ -1,50 +1,102 @@
 @-moz-document domain("sonarcloud.io")
 {
-    body, html, input[type="date"], input[type="email"], input[type="number"],
-    input[type="password"], input[type="search"], input[type="text"],
-    select, textarea, .boxed-group, .bubble-popup, .coding-rule,
-    .code-components tr, .data-line-number, .data tr.blank, .data tr.blank > td,
-    .domain-measures-leak, .domain-measures-leak-header, .dropdown-menu,
-    .even, .facet-name, .facet-name span, .facet-stat, .layout-page-main,
-    .layout-page-side, .layout-page-side-inner, .layout-page-header-panel-inner,
-    .measure-details-component-row, .menu, .navbar-inner,
-    .navbar-search .search-box-input, .odd, .overview-domain-leak,
-    .overview-domain-panel, .overview-legend, .overview-main, .overview-meta,
-    .overview-quality-gate, .overview-quality-gate-condition-leak,
-    .overview-title, .page-box, .page-wrapper, .project-activity-version-badge,
+    body,
+    html,
+    input[type="date"],
+    input[type="email"],
+    input[type="number"],
+    input[type="password"],
+    input[type="search"],
+    input[type="text"],
+    select,
+    textarea,
+    .boxed-group,
+    .bubble-popup,
+    .coding-rule,
+    .code-components tr,
+    .data-line-number,
+    .data tr.blank,
+    .data tr.blank > td,
+    .domain-measures-leak,
+    .domain-measures-leak-header,
+    .dropdown-menu,
+    .even, .facet-name,
+    .facet-name span,
+    .facet-stat,
+    .layout-page-main,
+    .layout-page-side,
+    .layout-page-side-inner,
+    .layout-page-header-panel-inner,
+    .measure-details-component-row,
+    .menu,
+    .navbar-inner,
+    .navbar-search .search-box-input,
+    .odd,
+    .overview-domain-leak,
+    .overview-domain-panel,
+    .overview-legend,
+    .overview-main,
+    .overview-meta,
+    .overview-quality-gate,
+    .overview-quality-gate-condition-leak,
+    .overview-title,
+    .page-box,
+    .page-wrapper,
+    .project-activity-version-badge,
     .search-navigator-facet-box,
-    .search-navigator-facet-empty, .search-navigator-facet-header,
-    .site-footer .grey-band, .source-line-issues,
-    .source-line-code.code, .source-line-code-inner, .source-line-coverage,
+    .search-navigator-facet-empty,
+    .search-navigator-facet-header,
+    .site-footer .grey-band,
+    .source-line-issues,
+    .source-line-code.code,
+    .source-line-code-inner,
+    .source-line-coverage,
     .source-line-filtered.source-line-filtered-dark .source-line-code,
-    .source-line-number, .source-line-scm, .source-viewer, .source-viewer,
-    .source-viewer-header, .source-viewer-more-code, .spacer-left, 
+    .source-line-number,
+    .source-line-scm,
+    .source-viewer,
+    .source-viewer,
+    .source-viewer-header,
+    .source-viewer-more-code,
+    .spacer-left, 
     .workspace-viewer-container,
-    #footer, #projects-management-page-projects tr
+    #footer,
+    #projects-management-page-projects tr
     {
         background: #222 !important;
         color: #CCC;
     }
-    .concise-issue-box:not(.selected) .location-index, .location-message,
+    .concise-issue-box:not(.selected) .location-index,
+    .location-message,
     .measure-details-component-row.selected
     {
         background: #333 !important;
         color: #CCC;
     }
     table.data.zebra > tbody > tr.selected,
-    .concise-issue-box, .dropdown-menu a.active, .dropdown-menu a:hover,
-    .issue, .issue-location, .issue-rule, .issue-rule:hover,
+    .concise-issue-box,
+    .dropdown-menu a.active,
+    .dropdown-menu a:hover,
+    .issue,
+    .issue-location,
+    .issue-rule,
+    .issue-rule:hover,
     .menu-search ~ .menu > .active > a,
     .menu-search ~ .menu > .active > a:focus,
     .menu-search ~ .menu > .active > a:hover,
     .menu-search ~ .menu > li > .active,
     .menu-search ~ .menu > li > .active:focus,
     .menu-search ~ .menu > li > .active:hover,
-    .search-box-input, .search-navigator-facet.active,
-    .search-navigator-facet.active .facet-name, .Select-placeholder,
-    .Select-value, .source-line-code:hover,
-    .source-line-code.code:hover, .source-line-code-inner:hover,
-    .source-line-filtered.source-line-filtered-dark, .source-line-issues:hover,
+    .search-box-input,
+    .search-navigator-facet.active,
+    .search-navigator-facet.active .facet-name,
+    .Select-placeholder,
+    .Select-value,
+    .source-line-code:hover,
+    .source-line-code.code:hover,
+    .source-line-code-inner:hover,
+    .source-line-filtered.source-line-filtered-dark,
+    .source-line-issues:hover,
     .source-line-scm:hover
     {
         background: #444 !important;
@@ -58,7 +110,12 @@
     {
         color: #CCC !important;
     }
-    a, button, .button, .button-link, input[type="button"], input[type="submit"]
+    a,
+    button,
+    input[type="button"],
+    input[type="submit"],
+    .button,
+    .button-link
     {
         color: #9977BB !important;
     }
@@ -70,8 +127,12 @@
     {
         background: linear-gradient(-90deg,#222 20%,rgba(255,255,255,0) 100%) !important;
     }
-    input[type="button"], input[type="submit"], .button, button,
-    .coding-rule.selected, .icon-checkbox::before,
+    input[type="button"],
+    input[type="submit"],
+    button,
+    .button,
+    .coding-rule.selected,
+    .icon-checkbox::before,
     .search-navigator-facet.active
     {
         border: 1px solid #9977BB !important;
