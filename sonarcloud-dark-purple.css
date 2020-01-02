@@ -57,6 +57,7 @@
     .source-viewer,
     .source-viewer,
     .source-viewer-header,
+    .source-viewer-header-slim,
     .source-viewer-more-code,
     .spacer-left, 
     .workspace-viewer-container,
@@ -73,20 +74,26 @@
         background: #333 !important;
         color: #CCC;
     }
+    code.rule,
     table.data.zebra > tbody > tr.selected,
     .concise-issue-box,
+    .css-1xptwoq,
     .dropdown-menu a.active,
     .dropdown-menu a:hover,
+    .expand-block-above,
+    .expand-block-below,
     .issue,
     .issue-location,
     .issue-rule,
     .issue-rule:hover,
+    .markdown code,
     .menu-search ~ .menu > .active > a,
     .menu-search ~ .menu > .active > a:focus,
     .menu-search ~ .menu > .active > a:hover,
     .menu-search ~ .menu > li > .active,
     .menu-search ~ .menu > li > .active:focus,
     .menu-search ~ .menu > li > .active:hover,
+    .rule-desc code,
     .search-box-input,
     .search-navigator-facet.active,
     .search-navigator-facet.active .facet-name,
@@ -132,7 +139,9 @@
     button,
     .button,
     .coding-rule.selected,
+    .concise-issue-box,
     .icon-checkbox::before,
+    .issue.selected,
     .search-navigator-facet.active
     {
         border: 1px solid #9977BB !important;
