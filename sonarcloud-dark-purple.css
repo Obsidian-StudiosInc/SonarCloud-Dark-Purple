@@ -146,6 +146,12 @@
     {
         border: 1px solid #9977BB !important;
     }
+    .css-1xptwoq,
+    .css-drwc05,
+    .navbar-context-avatar
+    {
+        border: none !important;
+    }
     .leak-chart-rect
     {
         fill: #222 !important;
