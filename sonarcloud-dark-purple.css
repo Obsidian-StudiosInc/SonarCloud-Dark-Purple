@@ -146,6 +146,11 @@
     {
         border: 1px solid #9977BB !important;
     }
+    .issues .issue:focus-within,
+    .issues .issue:hover
+    {
+        border: 2px dashed #9977BB !important;
+    }
     .navbar-tabs > li > a.active,
     .navbar-tabs > li > a:focus,
     .navbar-tabs > li > a:hover
